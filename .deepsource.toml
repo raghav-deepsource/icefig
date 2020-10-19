@@ -1,0 +1,11 @@
+version = 1
+
+[[analyzers]]
+name = "java"
+enabled = true
+
+  [analyzers.meta]
+  build_system = "gradle"
+  gradle_modules = [
+    { name = ":", source_sets = ["main"] }
+  ]
